@@ -33,7 +33,7 @@ export const CustomerStorySection = () => {
 
                 <div className="grid gap-8 md:grid-cols-2">
                     {customerStories.map((customerStory) => (
-                        <div key={customerStory.author} className="flex flex-col gap-6 rounded-lg bg-gray-500 p-6 md:p-12">
+                        <div key={customerStory.content} className="flex flex-col gap-6 rounded-lg bg-gray-500 p-6 md:p-12">
                             <p className="text-balance text-gray-200">
                                 {customerStory.content}
                             </p>
