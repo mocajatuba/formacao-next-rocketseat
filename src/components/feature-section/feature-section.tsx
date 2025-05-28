@@ -10,7 +10,7 @@ export const FeatureSection = () => {
                 <span className="text-body-tag  text-blue-200 bg-blue-400 PX-2 PY-1 w-fit rounded-sm uppercase">
                     SIMPLES
                 </span>
-                <h2 className="text-gray-100 text-heading-hg">
+                <h2 className="font-sans text-gray-100 text-heading-hg ">
                     Crie um catálogo de produtos online em poucos minutos
                 </h2>
             </div>
@@ -18,7 +18,7 @@ export const FeatureSection = () => {
                 <span className="text-body-tag  text-blue-200 bg-blue-400 PX-2 PY-1 w-fit rounded-sm uppercase">
                     PRÁTICO
                 </span>
-                <h2 className="text-gray-100 text-heading-hg">
+                <h2 className="font-sans text-gray-100 text-heading-hg">
                     Venda para seu público através de uma plataforma única
                 </h2>
             </div>
@@ -29,7 +29,7 @@ export const FeatureSection = () => {
                         <span className="text-body-tag  text-blue-200 bg-blue-400 PX-2 PY-1 w-fit rounded-sm uppercase">
                             Personalizável
                         </span>
-                        <h2 className="text-gray-100 text-heading-hg">
+                        <h2 className="font-sans text-gray-100 text-heading-hg">
                             Tenha uma loja online personalizada com a cara da sua marca
                         </h2>
 
