@@ -37,7 +37,7 @@ export const useShare = ({url, title, text}: UseShareProps) => {
             provider: Key,
             name: provider.name,
             icon: provider.icon,
-            action: () => share(key as SocialProvider)
+            action: () => share(Key as SocialProvider)
         }))
     ],[share]);
 

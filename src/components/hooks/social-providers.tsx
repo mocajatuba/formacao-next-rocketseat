@@ -6,10 +6,10 @@ export type ShareConfig = {
     text?: string;
 };
 
-export type SocialProvider = 'linkedin' | 'facebook' | 'slack' | 'twitter' | 'threads';
+export type SocialProvider = | 'linkedin' | 'facebook' | 'slack' | 'twitter' | 'threads' ;
 
 export const SOCIAL_PROVIDERS = {
-    linkeding: {
+    linkedin: {
         name: 'LinkedIn',
         icon: <Linkedin className='h-4 w-4' />,
         shareUrl: (config: ShareConfig) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(config.url)}`
