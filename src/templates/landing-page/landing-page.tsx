@@ -12,7 +12,6 @@ export const LandingPage = () => {
           <FeatureSection />
           <SupporSection />
           <CustomerStorySection />
-          <CallToAction />
       </article>
   );
 };
