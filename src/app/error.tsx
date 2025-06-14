@@ -11,8 +11,8 @@ type ErrorBoundaryProps = {
 export default function ErrorBoundary({ error, reset}: ErrorBoundaryProps) {
     return (
         <div className="min-h-[400px] flex items-center justify-center p-4">
-            <div>
-                <div>
+            <div className="max-w-md w-full text-center">
+                <div className="relative inline-block mb-6">
                     <AlertTriangle 
                         size={64}
                         className="text-gray-100 mx-auto"  />
